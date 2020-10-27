@@ -40,5 +40,10 @@
       "plan": "heroku-postgresql",
       "as": "DATABASE"
     }
+  ],
+  "buildpacks": [
+    {
+        "url": "https://github.com/emk/heroku-buildpack-rust"
+    }
   ]
 }
